@@ -3,8 +3,6 @@ namespace: iter8-monitoring
 resources:
 - clusterrole.yaml
 - clusterrolebinding.yaml
-- github.com/prometheus-operator/prometheus-operator?ref=v0.44.1
-- namespace.yaml
 - prometheus.yaml
 - promservice.yaml
 - serviceaccount.yaml
